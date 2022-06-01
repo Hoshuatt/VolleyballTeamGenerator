@@ -23,7 +23,7 @@ def TeamGenerator():
                 players.append(line.replace("\n",""))
             random.shuffle(players)
             print(players[0:6],"\n")
-            print(players[7:12],"\n")
+            print(players[7:13],"\n")
 
     elif (teams == 3):
         with open('Volleyball.txt', 'r') as f:
@@ -32,10 +32,20 @@ def TeamGenerator():
                 players.append(line.replace("\n",""))
             random.shuffle(players)
             print(players[0:6],"\n")
-            print(players[7:12],"\n")
-            print(players[13:18],"\n")
+            print(players[7:13],"\n")
+            print(players[14:20],"\n")
 
-    elif (teams > 3):
+    elif (teams == 4):
+        with open('Volleyball.txt', 'r') as f:
+            for line in f:
+                players.append(line.replace("\n",""))
+            random.shuffle(players)
+            print(players[0:6],"\n")
+            print(players[6:12],"\n")
+            print(players[13:19],"\n")
+            print(players[19:], "\n")
+
+    elif (teams > 4):
         exit("Invalid Input: Amount of Teams must be less than or equal to 3")
 
         
