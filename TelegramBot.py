@@ -8,7 +8,7 @@ from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
 from telegram import Bot
 
-updater = Updater("5517859423:AAHLtuyyojK8yT4xszKAJTdl8UorAGSbZFg", use_context=True)
+updater = Updater("API KEY", use_context=True)
 
 dispatcher: Dispatcher = updater.dispatcher
 
