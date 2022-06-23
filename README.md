@@ -3,6 +3,7 @@ Volleyball Team Generator that creates a list of all available players and rando
 
 ## TODO: plan out MVP
 
+## TODO: set up CI/CD with github
 ## TODO: add system diagram for the project
 
 ## TODO: include steps on how to run locally
@@ -10,6 +11,8 @@ Volleyball Team Generator that creates a list of all available players and rando
 ## TODO: see if we can leverage venv for python dependencies and other standard python practices to follow
 
 ## TODO: research design patterns for a Flask/Django app.
+
+
 
 
 
